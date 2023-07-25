@@ -2,7 +2,7 @@
 // Lambda function. Every time its called it connects to DB then disconnects when finished
 
 import { connectToDB } from '@utils/database';
-import Prompt from '@models/prompt';
+import Prompt from '@models/Prompt';
 
 export const POST = async(req, res) => {
     // extract data from post request
